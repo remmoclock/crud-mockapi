@@ -95,7 +95,12 @@ const Read = () => {
                     </Link>
                   </td>
                   <td>
-                    <button className="btn-danger" onClick={handleDelete(eachData.id)}>Delete</button>
+                    <button
+                      className="btn-danger"
+                      onClick={() => handleDelete(eachData.id)}
+                    >
+                      Delete
+                    </button>
                   </td>
                 </tr>
               </tbody>
